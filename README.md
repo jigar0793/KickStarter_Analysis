@@ -20,11 +20,13 @@ Before heading directly into the analysis, we can see that the dataset provided 
 
 For this Analysis, I have created pivot table by filtering Parent Category and years (Parent category and years column had to be added seperately in Kickstater sheet). Column field was filtered with outcomes in decending order while the rows were filtered in Date created Conversions in months wise.
 
-![Image 1](/Users/jigar/Desktop/UCSD/CHALLENEGES/MODULE\ 1/Theater\ Outcomes.png)
+<img width="718" alt="Theater Outcomes" src="https://user-images.githubusercontent.com/94248676/155907802-81279ecd-e992-4354-923c-9330dd77b3ad.png">
 
 #### Analysis of Outcomes Based on Goals
 
 To analyze this dataset, I made a coulmn range starting from Less than $10,000 until greater than $50,000 on increment of 5000 on each row. In order to receive corrent count I have used COUNTIFS function. This function will be useful to get us exact number for successful, failed and canceled events for plays in Subcategory. Moreover, after getting data's in that columns I found percentages of each coulmns by dividing each with subtotal with overall data.
+
+<img width="953" alt="Outcomes based on Goals" src="https://user-images.githubusercontent.com/94248676/155907738-41fdb819-465d-4a5c-bf81-528fc8e36e8b.png">
 
 ### Challenges Encountered:
 
@@ -42,10 +44,13 @@ To analyze this dataset, I made a coulmn range starting from Less than $10,000 u
 
 Upon exploration of the data its seems that starting March until September, May is a most flourishing time of year for a theater campaign. Between March and May, the prospect is alomst more than a double but quickly tapers down from May on with a minor elevation from September to October. Its Facinating that the failure rate is also duplicating with the success trend but statistically at a much lower rate.
 
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/94248676/155907829-f1256451-7256-4b80-b43a-38d50abbc6c1.png)
 
 #### 2) Outcome Based on Goals:
 
 Although the pattern fluctuates, it is apparent that play campaigns with higher goals tend to have a greater percent chance of failing. However, surprisingly the goal of $35,000 - $45,000 has a success rate of around 70%. The funding Goal of Less than $1,000 has the highest success rate of around 75%%, followed closely by the $1,000-$5,000 funding goal, with a success rate of around 73%.
+
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/94248676/155907845-99aa464b-0aa0-4fbc-ace5-691ec0f26815.png)
 
 ### What are some limitations of this dataset?
 Some limitations are:
